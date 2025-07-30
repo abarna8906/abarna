@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .th{
+    color:rgb(219, 39, 69);
+    }
+</style>
+<body>
+    <h1>date and time</h1>
+    <button onclick="time()">show</button>
+    <p id="val1" class="th"></p>
+    <script>
+        function time(){
+            const now=new Date();
+            document.getElementById('val1').innerHTML=now.toString();
+
+            }
+    </script>
+</body></html>
